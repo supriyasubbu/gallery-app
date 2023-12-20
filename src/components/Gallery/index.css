@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1120px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.select-image {
+  width: 80%;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #64748b;
+  font-size: 18px;
+}
+
+.bottom-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
